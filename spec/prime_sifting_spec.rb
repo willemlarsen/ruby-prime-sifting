@@ -13,9 +13,9 @@ describe "prime_sifting" do
 				[1, 2, 3, 5])
 		end
 	end
-	describe "remove_prime_numbers" do 
+	describe "remove_prime_numbers_up_to_number" do 
 		it "filters out all prime numbers from a number list" do 
-			expect(remove_prime_numbers([1, 2, 3, 4, 5, 6, 7, 8])).to eq(
+			expect(remove_prime_numbers_up_to_number(8)).to eq(
 				[1, 2, 3, 5, 7])
 		end
 	end
